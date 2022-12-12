@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/ParkingLotManagementSystem"/>
+    <qresource prefix="/new/prefix1">
+        <file>img/bg.png</file>
+        <file>img/car.png</file>
+    </qresource>
+</RCC>
