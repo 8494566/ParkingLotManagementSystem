@@ -150,6 +150,7 @@ void ParkingLotManagementSystem::onClickedReleaseCarFunc(int it)
     {
         auto it = m_QueueCar.front();
         m_QueueCar.pop_front();
+        it->startTime = QDateTime::currentDateTime().toString(Qt::ISODate).toStdString();
         m_vectorCar.push_back(it);
     }
 
